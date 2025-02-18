@@ -35,9 +35,8 @@ export default function About() {
               </ul>
 
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mt-6">
-                I'm passionate about leveraging cutting-edge technologies to solve 
-                complex problems and drive innovation in the field of artificial 
-                intelligence.
+                I'm passionate about building AI systems that solve real-world problems, 
+                with a focus on scalability, reliability, and innovation.
               </p>
             </div>
           </motion.div>
@@ -57,12 +56,12 @@ export default function About() {
             <SkillCard
               title="Data Systems"
               icon={<Database className="w-8 h-8 text-purple-500" />}
-              description="SQL, NoSQL, Vector DBs"
+              description="SQL, NoSQL, Vector DBs, PySpark, Kafka, Airflow"
             />
             <SkillCard
               title="MLOps"
               icon={<Settings className="w-8 h-8 text-yellow-500" />}
-              description="AWS, Docker, Kubernetes"
+              description="AWS, Docker, Kubernetes, MLflow, GCP-Vertex AI"
             />
           </div>
         </div>

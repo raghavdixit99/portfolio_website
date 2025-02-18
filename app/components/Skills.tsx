@@ -103,7 +103,7 @@ const skillCategories: SkillCategory[] = [
     order: 6,
     icon: <Cloud className="w-6 h-6 text-sky-500 dark:text-sky-400" />,
     subtitle: "Deploying and managing scalable infrastructure and CI/CD pipelines.",
-    skills: ["AWS", "Docker", "Kubernetes", "GitHub Actions", "Jenkins", "MLflow", "DVC"]
+    skills: ["AWS", "GCP", "Docker", "Kubernetes", "GitHub Actions", "Jenkins", "MLflow", "DVC"]
   },
   {
     title: "Big Data Processing",
