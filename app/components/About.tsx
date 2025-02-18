@@ -46,12 +46,12 @@ export default function About() {
             <SkillCard
               title="AI/ML"
               icon={<Brain className="w-8 h-8 text-blue-500" />}
-              description="Deep Learning, NLP, Reinforcement Learning"
+              description="Statistics, Machine Learning, Deep Learning, NLP, Reinforcement Learning"
             />
             <SkillCard
               title="Full-Stack"
               icon={<Code2 className="w-8 h-8 text-green-500" />}
-              description="Python, JavaScript, React, Django"
+              description="Python, TypeScript, React, Django, Node.js, Next.js"
             />
             <SkillCard
               title="Data Systems"
@@ -59,9 +59,9 @@ export default function About() {
               description="SQL, NoSQL, Vector DBs, PySpark, Kafka, Airflow"
             />
             <SkillCard
-              title="MLOps"
+              title="Cloud/MLOps"
               icon={<Settings className="w-8 h-8 text-yellow-500" />}
-              description="AWS, Docker, Kubernetes, MLflow, GCP-Vertex AI"
+              description="GCP, AWS, Docker, Kubernetes, MLflow, DVC"
             />
           </div>
         </div>
