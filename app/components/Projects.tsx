@@ -1,10 +1,18 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { ExternalLink, Github, PenTool } from "lucide-react"
+import { ExternalLink, Github, PenTool, Trophy, Stethoscope, Map, Terminal } from "lucide-react"
 import AnimatedSectionHeader from "./AnimatedSectionHeader"
 
-const projects = [
+interface Project {
+  title: string
+  description: string
+  tags?: string[]
+  github?: string
+  link?: string
+}
+
+const projects: Project[] = [
   {
     title: "Morphus: Hybrid RL Framework",
     description: "A novel multi-agent framework for dynamic personality adaptation without human intervention. (ongoing)",
@@ -33,6 +41,43 @@ const projects = [
     github: "https://github.com/raghavdixit99/gte_mlx_rag",
     link: "",
   },
+  {
+    title: "KnowDisaster",
+    description: "Led a team of 3 people to develop a web-app to predict occurrence of floods; notify users & emergency contacts and show nearest relief camp locations, submitted to Microsoft CodeFunDo hackathon.",
+    tags: [
+      "Microsoft CodeFunDo 2018",
+      "Vue.js",
+      "MongoDB",
+      "Google Maps API",
+      "HeatmapJS",
+      "AccuWeather API"
+    ],
+    github: "https://github.com/raghavdixit99/KnowDisaster",
+  },
+  {
+    title: "Allergy Card",
+    description: "App that allows first responders to get the details of a user's allergies and details in an accident via an id stored on their NFC card. Android users will be directed to a webpage.",
+    tags: [
+      "Course Project 2019",
+      "Swift",
+      "CoreNFC",
+      "Firestore",
+      "AngularJS"
+    ],
+    github: "",
+  },
+  {
+    title: "T-Mail",
+    description: "Terminal-based messaging system with Git authentication",
+    tags: [
+      "TCP/IP Course Project 2018",
+      "Python",
+      "Socket Programming",
+      "Git OAuth",
+      "CLI"
+    ],
+    github: "",
+  },
 ]
 
 export default function Projects() {
@@ -59,14 +104,13 @@ export default function Projects() {
                 <h3 className="text-2xl font-semibold mb-2 dark:text-white">{project.title}</h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {project.tags.map((tag, tagIndex) => (
-                    <span
-                      key={tagIndex}
-                      className="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs font-medium px-2.5 py-0.5 rounded"
-                    >
-                      {tag}
-                    </span>
-                  ))}
+                  {project.tags && (
+                    project.tags.map((tag, tagIndex) => (
+                      <span key={tagIndex} className="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs font-medium px-2.5 py-0.5 rounded">
+                        {tag}
+                      </span>
+                    ))
+                  )}
                 </div>
                 <div className="flex items-center space-x-4">
                   {project.github && isGithub && (

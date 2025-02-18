@@ -21,10 +21,11 @@ const experiences = [
     period: "Jul 2024 - Present",
     role: "Founding AI Engineer",
     responsibilities: [
-      "Architected production-ready multi-agent systems from scratch for features like - codebase chat, automatic documentation updates, AI-driven team insights.",
-      "Developed personalized agents with continuous memory/vectorDB data updates.",
-      "Created an AI Code Review Bot leveraging Deepseek R1 and LangGraph, beating competitors by +20% critical bug ratio.",
-      "Implemented CI/CD pipelines and auto-scaling with custom AWS policies.",
+      "Leading AI development at Mayfield-backed startup revolutionizing developer tooling with AI-powered code understanding, reviewing and automation.",
+      "Built scalable multi-agent systems for production with fine-tuned LLMs (8/4-bit PEFT) powering intelligent code review, documentation, and team insights.",
+      "Developed novel AI Code Review system using Deepseek and LangGraph, outperforming competitors by 20% in critical bug detection.",
+      "Architected scalable microservices handling real-time code analysis for Fortune 500 clients, with auto-scaling AWS infrastructure.",
+      "Tech: Next.js, Django microservices, AWS, LangChain, Vector DBs, LLM fine-tuning"
     ],
   },
   {
@@ -45,11 +46,11 @@ const experiences = [
     period: "May 2021 - Jul 2023",
     role: "Machine Learning Engineer",
     responsibilities: [
-      "Built and maintained large-scale ML pipelines for data processing, model development, and A/B testing serving 250+ million daily active users.",
-      "Developed a shipping partner recommendation engine that cut logistics costs by 14%.",
-      "Built a GBT Classifier with custom scoring function.",
-      "Built a live stream ranking model pipeline and global feature store for Roposo's short-video platform, and developed a tool to generate short-video clips from Glance live streams using LLMs (GPT-3.5) and video models (PySlowFast).",
-      "Achieved 3x performance gains by applying adaptive graph contrastive learning to address sparse user data (cold start problem) in deep learning recommendation system.",
+      "Built ML infrastructure serving 250M+ DAUs - automated data pipelines, model training, A/B testing with Kubernetes and GCP.",
+      "Increased user engagement by 15% using graph embeddings and Node2Vec for content recommendations, serving real-time predictions at scale.",
+      "Developed shipping partner recommendation engine cutting logistics costs by 14% using LightGBM and custom feature engineering.",
+      "Built video content ranking system for Roposo (short-video platform) using GPT-3.5 and PySlowFast, achieving 3x performance gain with graph contrastive learning.",
+      "Tech: PyTorch, Kubernetes, GCP, Node2Vec, LightGBM/XGBoost, PySlowFast, Airflow"
     ],
   },
   {
