@@ -46,11 +46,11 @@ const experiences = [
     period: "May 2021 - Jul 2023",
     role: "Machine Learning Engineer",
     responsibilities: [
-      "Built ML infrastructure serving 250M+ DAUs - automated data pipelines, model training, A/B testing with Kubernetes and GCP.",
-      "Increased user engagement by 15% using graph embeddings and Node2Vec for content recommendations, serving real-time predictions at scale.",
-      "Developed shipping partner recommendation engine cutting logistics costs by 14% using LightGBM and custom feature engineering.",
-      "Built video content ranking system for Roposo (short-video platform) using GPT-3.5 and PySlowFast, achieving 3x performance gain with graph contrastive learning.",
-      "Tech: PyTorch, Kubernetes, GCP, Node2Vec, LightGBM/XGBoost, PySlowFast, Airflow"
+      "Architected ML infrastructure serving 250M+ daily active users, powering content recommendations and personalized user engagement systems at scale.",
+      "Increased platform-wide user engagement by 15% using graph ML techniques (graph embeddings, Node2Vec) and achieved 3x performance gains by solving cold-start problem with graph contrastive learning.",
+      "Revolutionized logistics efficiency with ML-powered partner recommendation system, reducing costs by 14% across operations.",
+      "Built video content ranking system for Roposo (short-video platform) integrating GPT-3.5 and PySlowFast, pioneering AI-driven content automation.",
+      "Led critical infrastructure initiatives improving system reliability and performance, while mentoring new intern hires in ML best practices."
     ],
   },
   {
