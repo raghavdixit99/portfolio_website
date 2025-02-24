@@ -29,7 +29,7 @@ const experiences = [
     ],
   },
   {
-    company: "LanceDB",
+    company: "LanceDB(YC 22)",
     location: "San Francisco, CA, USA",
     period: "Jan 2024 - Jul 2024",
     role: "AI Engineer",
