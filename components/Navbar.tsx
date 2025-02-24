@@ -14,7 +14,7 @@ const navItems = [
   { name: "Contact", href: "#contact" },
   {
     name: "Resume",
-    href: "https://drive.google.com/file/d/1Q3G-0PLZtMZN4wmbOILk1MgRDhLhx-0C/view?usp=sharing",
+    href: "https://drive.google.com/file/d/1KBnP_4hbOaZVPb2dYHip84S169Ayh4TI/view?usp=sharing",
     icon: <FileText className="w-4 h-4" />,
     external: true
   },
