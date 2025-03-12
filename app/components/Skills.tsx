@@ -54,6 +54,7 @@ const skillCategories: SkillCategory[] = [
           "Transformers",
           "GANs",
           "Multimodal Systems",
+          "Multi-GPU Training (DDP, FSDP, ZeRO, etc.)",
           "LLM Finetuning (PEFT/SFT/QLoRa etc.)",
           "Advanced RAG",
           "Diffusion Models"
