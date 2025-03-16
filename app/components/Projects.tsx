@@ -14,9 +14,12 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Morphus: Hybrid RL Framework",
-    description: "A novel multi-agent framework for dynamic personality adaptation without human intervention. (ongoing)",
-    tags: ["Reinforcement Learning", "Multi-Agent Systems", "Python(JAX/PyTorch)", "rust"],
+    title: "MultiModal RAG for Video Processing",
+    description:
+      "A multi-modal solution leveraging LlamaIndex, OpenCLIP, GPT-4V, and LanceDB for deep video content understanding.",
+    tags: ["Computer Vision", "NLP", "Python"],
+    github: "https://github.com/run-llama/llama_index/pull/10530",
+    link: "https://medium.com/llamaindex-blog/multimodal-rag-for-advanced-video-processing-with-llamaindex-lancedb-33be4804822e",
   },
   {
     title: "AlgoTrading",
@@ -24,14 +27,6 @@ const projects: Project[] = [
     tags: ["Machine Learning", "Finance", "Python"],
     github: "https://github.com/raghavdixit99/AlgoTrading",
     link: "",
-  },
-  {
-    title: "MultiModal RAG for Video Processing",
-    description:
-      "A multi-modal solution leveraging LlamaIndex, OpenCLIP, GPT-4V, and LanceDB for deep video content understanding.",
-    tags: ["Computer Vision", "NLP", "Python"],
-    github: "https://github.com/run-llama/llama_index/pull/10530",
-    link: "https://medium.com/llamaindex-blog/multimodal-rag-for-advanced-video-processing-with-llamaindex-lancedb-33be4804822e",
   },
   {
     title: "GTE-MLX RAG CLI App",
